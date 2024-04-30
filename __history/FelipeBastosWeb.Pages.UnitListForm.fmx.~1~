@@ -1,4 +1,0 @@
-inherited RestrictForm1: TRestrictForm1
-  Caption = 'RestrictForm1'
-  DesignerMasterStyle = 3
-end

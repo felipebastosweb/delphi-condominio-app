@@ -1,9 +1,0 @@
-inherited ScheduleMeetingForm: TScheduleMeetingForm
-  Caption = 'Schedule Meeting'
-  DesignerMasterStyle = 3
-  inherited Header1: THeader
-    inherited HeaderItem1: THeaderItem
-      Text = 'Shedule Meeting'
-    end
-  end
-end

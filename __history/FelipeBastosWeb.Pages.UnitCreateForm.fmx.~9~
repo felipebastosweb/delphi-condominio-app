@@ -1,5 +1,0 @@
-inherited UnitCreateForm: TUnitCreateForm
-  Caption = 'Unit Create'
-  Fill.Kind = Solid
-  DesignerMasterStyle = 3
-end

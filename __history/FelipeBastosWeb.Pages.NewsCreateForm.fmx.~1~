@@ -1,9 +1,0 @@
-inherited RestrictForm3: TRestrictForm3
-  Caption = 'RestrictForm3'
-  DesignerMasterStyle = 3
-  inherited Header1: THeader
-    inherited Label1: TLabel
-      TextSettings.Font.StyleExt = {00070000000000000004000000}
-    end
-  end
-end

@@ -1,4 +1,0 @@
-inherited UnitCreateForm: TUnitCreateForm
-  Caption = 'Unit Create'
-  DesignerMasterStyle = 3
-end

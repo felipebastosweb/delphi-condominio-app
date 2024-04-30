@@ -1,9 +1,0 @@
-inherited AssemblyCreateForm: TAssemblyCreateForm
-  Caption = 'RestrictForm1'
-  DesignerMasterStyle = 3
-  inherited Header1: THeader
-    inherited HeaderItem1: THeaderItem
-      Text = 'Assembly Create'
-    end
-  end
-end
