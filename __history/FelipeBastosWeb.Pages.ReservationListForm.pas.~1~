@@ -1,0 +1,29 @@
+unit FelipeBastosWeb.Pages.ReservationCreateForm;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FelipeBastosWeb.Pages.RestrictForm, FMX.Controls.Presentation, FMX.Header,
+  FMX.ListBox, FMX.Menus;
+
+type
+  TRestrictForm2 = class(TRestrictForm)
+    Label2: TLabel;
+    Label3: TLabel;
+    ComboBox1: TComboBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  RestrictForm2: TRestrictForm2;
+
+implementation
+
+{$R *.fmx}
+
+end.

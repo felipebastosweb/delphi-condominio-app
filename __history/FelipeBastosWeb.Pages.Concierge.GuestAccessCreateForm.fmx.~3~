@@ -1,0 +1,9 @@
+inherited GuestAccessNewForm: TGuestAccessNewForm
+  Caption = 'Guest Access'
+  DesignerMasterStyle = 3
+  inherited Header1: THeader
+    object Label1: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

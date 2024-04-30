@@ -1,0 +1,9 @@
+inherited RestrictForm5: TRestrictForm5
+  Caption = 'RestrictForm5'
+  DesignerMasterStyle = 3
+  inherited Header1: THeader
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end

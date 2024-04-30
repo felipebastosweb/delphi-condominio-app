@@ -1,0 +1,24 @@
+inherited MaintenanceRequestForm: TMaintenanceRequestForm
+  Caption = 'Maintenance Request'
+  ClientHeight = 600
+  ClientWidth = 300
+  Fill.Kind = Solid
+  DesignerMasterStyle = 3
+  object Calendar1: TCalendar
+    Align = Top
+    Date = 45175.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Position.Y = 100.000000000000000000
+    Size.Width = 300.000000000000000000
+    Size.Height = 241.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 300.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+  end
+end

@@ -1,0 +1,78 @@
+unit FelipeBastosWeb.Pages.SignUpForm;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Edit,
+  FMX.StdCtrls, FMX.Controls.Presentation,
+  FelipeBastosWeb.Pages.HomeForm, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, Data.DB,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+
+type
+  TSignUpForm = class(TForm)
+    Label1: TLabel;
+    Panel1: TPanel;
+    Label2: TLabel;
+    UsernameEdit: TEdit;
+    Label3: TLabel;
+    PasswordEdit: TEdit;
+    Label4: TLabel;
+    RepeatPasswordEdit: TEdit;
+    Label5: TLabel;
+    EmailEdit: TEdit;
+    Label6: TLabel;
+    TelephoneEdit: TEdit;
+    CheckBox1: TCheckBox;
+    Button1: TButton;
+    FDQuery1: TFDQuery;
+    procedure Button1Click(Sender: TObject);
+    procedure CheckBox1Change(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  SignUpForm: TSignUpForm;
+
+implementation
+
+{$R *.fmx}
+
+procedure TSignUpForm.Button1Click(Sender: TObject);
+var insertSuccess : Boolean;
+begin
+    //
+    // Salva usuário no banco de dados
+    // Save user to database
+    insertSuccess := FDQuery1.Connection.ExecSQL(
+      'INSERT INTO Users (Username, Password, Email, Telephone, KeepConnected) ' +
+      'VALUES (:Username, :Password, :Email, :Telephone, :KeepConnected)',
+      [UsernameEdit.Text, PasswordEdit.Text, EmailEdit.Text, TelephoneEdit.Text, 1]
+    ) > 0;
+
+    if not insertSuccess then begin
+      // show error message
+      ShowMessage('Register of user failed!');
+    end else begin
+      ShowMessage('User registration successful! Please login.');
+      // fecha a janela para retornar para a página principal
+        // - ela se incubirá de mostrar os usuários cadastrados para login automático
+      // close the window to return to the main page
+         // - it will be responsible for showing registered users for automatic login
+      self.Close;
+    end;
+    HomeForm.Show;
+end;
+
+procedure TSignUpForm.CheckBox1Change(Sender: TObject);
+begin
+    //
+    Button1.Enabled := not Button1.Enabled;
+end;
+
+end.

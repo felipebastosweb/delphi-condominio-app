@@ -1,0 +1,117 @@
+inherited RestrictForm1: TRestrictForm1
+  Caption = 'RestrictForm1'
+  DesignerMasterStyle = 3
+  inherited Header1: THeader
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 342.000000000000000000
+    Size.Height = 683.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 2
+    TabPosition = PlatformDefault
+    Sizes = (
+      342s
+      634s
+      342s
+      634s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 171.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      object Label2: TLabel
+        Align = Top
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 40.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 40.000000000000000000
+        Size.Width = 302.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Name'
+        TabOrder = 2
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 4
+          Position.Y = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Size.Width = 302.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Label3: TLabel
+        Align = Top
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 50.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 113.000000000000000000
+        Size.Width = 302.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Federal Number ID'
+        TabOrder = 1
+        object Edit2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 4
+          Position.Y = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Size.Width = 302.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Label4: TLabel
+        Align = Top
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 50.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 186.000000000000000000
+        Size.Width = 302.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Address'
+        TabOrder = 0
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 4
+          Position.Y = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Size.Width = 302.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 171.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+    end
+  end
+end

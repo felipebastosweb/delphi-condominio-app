@@ -1,0 +1,212 @@
+inherited MaintenanceRequestForm: TMaintenanceRequestForm
+  Caption = 'Maintenance Request'
+  ClientHeight = 600
+  ClientWidth = 300
+  Fill.Kind = Solid
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 300.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+  end
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 300.000000000000000000
+    Size.Height = 550.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 300.000000000000000000
+    Viewport.Height = 550.000000000000000000
+    object Layout2: TLayout
+      Align = Top
+      Size.Width = 300.000000000000000000
+      Size.Height = 63.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      object Label1: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Condominnium'
+        TabOrder = 6
+      end
+      object ComboBox1: TComboBox
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 23.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Position.Y = 63.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 66.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object Label3: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Title'
+        TabOrder = 6
+      end
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 7
+        Position.X = 5.000000000000000000
+        Position.Y = 23.000000000000000000
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Position.Y = 306.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      object Label6: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Priority'
+        TabOrder = 6
+      end
+      object ComboBox2: TComboBox
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 23.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+      end
+    end
+    object Layout5: TLayout
+      Align = Top
+      Position.Y = 129.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      object Label5: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Start Date'
+        TabOrder = 6
+      end
+      object DateEdit1: TDateEdit
+        Date = 45397.000000000000000000
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 23.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+      end
+    end
+    object Layout6: TLayout
+      Align = Top
+      Position.Y = 194.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 112.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      object Label2: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Description'
+        TabOrder = 6
+      end
+      object Memo1: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 28.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 69.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        Viewport.Width = 282.000000000000000000
+        Viewport.Height = 61.000000000000000000
+      end
+    end
+    object Layout7: TLayout
+      Align = Top
+      Position.Y = 371.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      object RoundRect1: TRoundRect
+        Align = Top
+        Fill.Color = claDarkgreen
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 260.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Label4: TLabel
+          Align = Center
+          StyledSettings = [Family, Size, Style]
+          HitTest = True
+          Size.Width = 186.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Confirm'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+end

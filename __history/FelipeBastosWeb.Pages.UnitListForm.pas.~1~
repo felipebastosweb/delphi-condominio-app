@@ -1,0 +1,25 @@
+unit FelipeBastosWeb.Pages.UnitListForm;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FelipeBastosWeb.Pages.RestrictForm;
+
+type
+  TRestrictForm1 = class(TRestrictForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  RestrictForm1: TRestrictForm1;
+
+implementation
+
+{$R *.fmx}
+
+end.

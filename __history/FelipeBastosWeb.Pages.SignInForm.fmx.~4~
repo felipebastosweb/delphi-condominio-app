@@ -1,0 +1,128 @@
+object SignInForm: TSignInForm
+  Left = 0
+  Top = 0
+  Caption = 'Sign In'
+  ClientHeight = 733
+  ClientWidth = 342
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Margins.Top = 100.000000000000000000
+    Position.Y = 100.000000000000000000
+    Size.Width = 342.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 32.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Sign In'
+    TabOrder = 0
+  end
+  object Layout1: TLayout
+    Align = Top
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 190.000000000000000000
+    Size.Width = 302.000000000000000000
+    Size.Height = 299.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Label2: TLabel
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 30.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 30.000000000000000000
+      Size.Width = 262.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Username'
+      TabOrder = 1
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        Position.Y = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Size.Width = 262.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label3: TLabel
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 103.000000000000000000
+      Size.Width = 262.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Password'
+      TabOrder = 0
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        Position.Y = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Size.Width = 262.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object CheckBox1: TCheckBox
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 176.000000000000000000
+      Size.Width = 262.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Keep me connected'
+      TextSettings.WordWrap = True
+    end
+    object RoundRect1: TRoundRect
+      Align = Top
+      Fill.Color = claDarkgreen
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 236.000000000000000000
+      Size.Width = 262.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = RoundRect1Click
+      object Label4: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        HitTest = True
+        Size.Width = 262.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Confirm'
+        TabOrder = 0
+      end
+    end
+  end
+  object FDQuery1: TFDQuery
+    ConnectionName = 'condominiumapp'
+    Left = 160
+    Top = 24
+  end
+end

@@ -1,0 +1,13 @@
+inherited CondominiumListForm: TCondominiumListForm
+  Caption = 'Condominium List'
+  DesignerMasterStyle = 3
+  inherited Header1: THeader
+    inherited HeaderItem1: THeaderItem
+      Text = 'Condominium List'
+    end
+  end
+  inherited ListBox1: TListBox
+    Viewport.Width = 342.000000000000000000
+    Viewport.Height = 183.000000000000000000
+  end
+end

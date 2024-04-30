@@ -1,0 +1,4 @@
+inherited CondominiumListForm: TCondominiumListForm
+  Caption = 'Condominium List'
+  DesignerMasterStyle = 3
+end

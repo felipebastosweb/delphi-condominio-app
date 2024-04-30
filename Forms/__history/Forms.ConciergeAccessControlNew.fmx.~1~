@@ -1,0 +1,4 @@
+inherited AccessControlNewForm: TAccessControlNewForm
+  Caption = 'RestrictForm4'
+  DesignerMasterStyle = 3
+end

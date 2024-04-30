@@ -1,0 +1,99 @@
+unit FelipeBastosWeb.Pages.HomeForm;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Menus, FMX.Controls.Presentation,
+  FMX.Header, FMX.ListBox, FMX.Layouts, FelipeBastosWeb.Pages.RestrictForm,
+  FMX.ListView.Types, FMX.ListView.Appearances, FMX.ListView.Adapters.Base,
+  FMX.ListView,
+  FelipeBastosWeb.Pages.CondominiumListForm, FelipeBastosWeb.Pages.UnitListForm,
+  FMX.TabControl, FMX.Objects, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, Data.DB,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+
+type
+  THomeForm = class(TRestrictForm)
+    Header1: THeader;
+    HeaderItem1: THeaderItem;
+    HeaderItem2: THeaderItem;
+    TabControl1: TTabControl;
+    TabItem1: TTabItem;
+    TabItem2: TTabItem;
+    VertScrollBox1: TVertScrollBox;
+    Panel2: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Rectangle1: TRectangle;
+    Image2: TImage;
+    Panel3: TPanel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Rectangle2: TRectangle;
+    Image1: TImage;
+    Panel4: TPanel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Rectangle5: TRectangle;
+    Image3: TImage;
+    Panel5: TPanel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Rectangle4: TRectangle;
+    Image4: TImage;
+    Panel6: TPanel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Rectangle3: TRectangle;
+    Image5: TImage;
+    Panel7: TPanel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Rectangle6: TRectangle;
+    Image6: TImage;
+    VertScrollBox2: TVertScrollBox;
+    Panel1: TPanel;
+    Circle1: TCircle;
+    Image7: TImage;
+    StoresOfUserComboBox: TComboBox;
+    PersonNameLabel: TLabel;
+    UserLoggedUsernameLabel: TLabel;
+    FDQuery1: TFDQuery;
+    procedure HeaderItem4Click(Sender: TObject);
+    procedure ListBoxItem2Click(Sender: TObject);
+    procedure ListBoxItem1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  HomeForm: THomeForm;
+
+implementation
+
+{$R *.fmx}
+
+procedure THomeForm.HeaderItem4Click(Sender: TObject);
+begin
+  inherited;
+  ListBox1.Visible := not ListBox1.Visible;
+end;
+
+procedure THomeForm.ListBoxItem1Click(Sender: TObject);
+begin
+  inherited;
+  CondominiumListForm.Show;
+end;
+
+procedure THomeForm.ListBoxItem2Click(Sender: TObject);
+begin
+  inherited;
+  UnitListForm.Show;
+end;
+
+end.

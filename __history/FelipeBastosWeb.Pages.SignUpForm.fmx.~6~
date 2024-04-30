@@ -1,0 +1,186 @@
+object SignUpForm: TSignUpForm
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 733
+  ClientWidth = 342
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Margins.Top = 100.000000000000000000
+    Position.Y = 100.000000000000000000
+    Size.Width = 342.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 32.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Sign Up'
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 529.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Label2: TLabel
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 30.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 30.000000000000000000
+      Size.Width = 282.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Username'
+      TabOrder = 3
+      object UsernameEdit: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        Position.Y = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Size.Width = 282.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label3: TLabel
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 103.000000000000000000
+      Size.Width = 282.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Password'
+      TabOrder = 1
+      object PasswordEdit: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        Position.Y = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Size.Width = 282.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label4: TLabel
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 176.000000000000000000
+      Size.Width = 282.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Repeat the Password *'
+      TabOrder = 6
+      object RepeatPasswordEdit: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 4
+        Position.Y = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Size.Width = 282.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label5: TLabel
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 249.000000000000000000
+      Size.Width = 282.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'E-mail'
+      TabOrder = 2
+      object EmailEdit: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        Position.Y = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Size.Width = 282.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label6: TLabel
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 322.000000000000000000
+      Size.Width = 282.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Telephone'
+      TabOrder = 0
+      object TelephoneEdit: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 2
+        Position.Y = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Size.Width = 282.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object CheckBox1: TCheckBox
+      Align = Top
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 395.000000000000000000
+      Size.Width = 282.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'I Accept the Terms of Use and the Privacy Policy.'
+      TextSettings.WordWrap = True
+      OnChange = CheckBox1Change
+    end
+    object Button1: TButton
+      Align = Top
+      Enabled = False
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 20.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 455.000000000000000000
+      Size.Width = 282.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'Confirm'
+      OnClick = Button1Click
+    end
+  end
+  object FDQuery1: TFDQuery
+    ConnectionName = 'condominiumapp'
+    Left = 192
+    Top = 16
+  end
+end

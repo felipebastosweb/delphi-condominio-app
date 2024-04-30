@@ -1,0 +1,92 @@
+inherited UnitCreateForm: TUnitCreateForm
+  Caption = 'Unit Create'
+  DesignerMasterStyle = 3
+  inherited Header1: THeader
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Unit Create'
+    end
+  end
+  object Label2: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 30.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 32.000000000000000000
+    Text = 'Unit Create'
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 30.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 140.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Condominium'
+    TabOrder = 5
+    object ComboBox1: TComboBox
+      Align = Top
+      Margins.Top = 20.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 322.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+  end
+  object Label4: TLabel
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 213.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Unit Type'
+    TabOrder = 4
+    object ComboBox2: TComboBox
+      Align = Top
+      Margins.Top = 20.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 322.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+  end
+  object Label5: TLabel
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 50.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 286.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Name'
+    TabOrder = 3
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 4
+      Position.Y = 20.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Size.Width = 322.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

@@ -1,0 +1,32 @@
+unit Models.Condominium;
+
+interface
+
+type
+  TCondominium = class
+    CondominiumId : Integer;
+    Name : String;
+    Address : String;
+    Email : String;
+    Telephone : String;
+    Active : Boolean;
+    CreationDate : TDatetime;
+  end;
+
+type
+  TCondominiumManager = class
+    CondominiumManagerId : Integer;
+    CondominiumId : Integer;
+    Name : String;
+    Address : String;
+    Email : String;
+    Telephone : String;
+    Active : Boolean;
+    StartDate : TDatetime;
+    EndDate : TDatetime;
+    CreationDate : TDatetime;
+  end;
+
+implementation
+
+end.

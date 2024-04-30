@@ -1,0 +1,44 @@
+inherited RestrictForm2: TRestrictForm2
+  Caption = 'RestrictForm2'
+  DesignerMasterStyle = 3
+  inherited Header1: THeader
+    inherited HeaderItem1: THeaderItem
+      Text = 'Common Area Reservation'
+    end
+  end
+  object Label2: TLabel
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 30.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label2'
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 123.000000000000000000
+    Size.Width = 322.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Common Area'
+    TabOrder = 2
+    object ComboBox1: TComboBox
+      Align = Top
+      Margins.Top = 20.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 322.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+  end
+end

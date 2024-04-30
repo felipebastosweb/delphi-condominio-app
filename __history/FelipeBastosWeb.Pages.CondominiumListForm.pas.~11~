@@ -1,0 +1,40 @@
+unit FelipeBastosWeb.Pages.CondominiumListForm;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FelipeBastosWeb.Pages.RestrictForm, FMX.Objects, FMX.IconFontImage,
+  FMX.Controls.Presentation, FMX.Header, FMX.Menus,  FMX.Layouts,
+  FMX.ListView.Types, FMX.ListView.Appearances, FMX.ListView.Adapters.Base,
+  FMX.ListView, FMX.SVGIconImage, FMX.Edit;
+
+type
+  TCondominiumListForm = class(TRestrictForm)
+    Layout1: TLayout;
+    Layout2: TLayout;
+    ListView1: TListView;
+    SVGIconImage1: TSVGIconImage;
+    Label1: TLabel;
+    SVGIconImage2: TSVGIconImage;
+    Label2: TLabel;
+    Edit1: TEdit;
+    Label3: TLabel;
+    Edit2: TEdit;
+    Button1: TButton;
+    SVGIconImage3: TSVGIconImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  CondominiumListForm: TCondominiumListForm;
+
+implementation
+
+{$R *.fmx}
+
+end.

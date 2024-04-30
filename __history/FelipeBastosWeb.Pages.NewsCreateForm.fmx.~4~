@@ -1,0 +1,9 @@
+inherited RestrictForm3: TRestrictForm3
+  Caption = 'RestrictForm3'
+  DesignerMasterStyle = 3
+  inherited Header1: THeader
+    inherited HeaderItem1: THeaderItem
+      Text = 'News Create'
+    end
+  end
+end

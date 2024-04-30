@@ -1,0 +1,9 @@
+inherited AccessControlNewForm: TAccessControlNewForm
+  Caption = 'RestrictForm4'
+  DesignerMasterStyle = 3
+  inherited Header1: THeader
+    inherited HeaderItem1: THeaderItem
+      Text = 'Access Control'
+    end
+  end
+end

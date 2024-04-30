@@ -1,0 +1,60 @@
+object UnitListForm: TUnitListForm
+  Left = 0
+  Top = 0
+  Caption = 'Unit List'
+  ClientHeight = 600
+  ClientWidth = 300
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 300.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Button1: TButton
+      Align = Left
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+      TabOrder = 0
+    end
+    object Label1: TLabel
+      Align = Left
+      Position.X = 48.000000000000000000
+      Size.Width = 144.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Unit List'
+      TabOrder = 1
+    end
+    object Button2: TButton
+      Align = Right
+      Position.X = 252.000000000000000000
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'additembutton'
+      TabOrder = 2
+    end
+  end
+  object ListBox1: TListBox
+    Align = Client
+    Size.Width = 300.000000000000000000
+    Size.Height = 550.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 300.000000000000000000
+    Viewport.Height = 550.000000000000000000
+  end
+end

@@ -1,0 +1,12 @@
+object NewsCreateForm: TNewsCreateForm
+  Left = 0
+  Top = 0
+  Caption = 'RestrictForm3'
+  ClientHeight = 600
+  ClientWidth = 300
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 3
+end

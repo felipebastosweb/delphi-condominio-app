@@ -1,0 +1,154 @@
+inherited UnitListForm: TUnitListForm
+  Caption = 'Unit List'
+  DesignerMasterStyle = 3
+  object Header1: THeader
+    Sides = [Top, Left, Bottom, Right]
+    Align = Top
+    Size.Width = 342.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object HeaderItem1: THeaderItem
+      Size.Width = 41.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      TextSettings.HorzAlign = Leading
+    end
+    object HeaderItem2: THeaderItem
+      Position.X = 41.000000000000000000
+      Size.Width = 256.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Units'
+      TextSettings.HorzAlign = Leading
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 342.000000000000000000
+    Size.Height = 683.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 2
+    TabPosition = PlatformDefault
+    Sizes = (
+      342s
+      634s
+      342s
+      634s
+      342s
+      634s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 114.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Home'
+      ExplicitSize.cx = 171.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 114.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 171.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Label3: TLabel
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 30.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 30.000000000000000000
+        Size.Width = 322.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Condominium'
+        TabOrder = 3
+        object ComboBox1: TComboBox
+          Align = Top
+          Margins.Top = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 322.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+        end
+      end
+      object Label4: TLabel
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 50.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 103.000000000000000000
+        Size.Width = 322.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Unit Type'
+        TabOrder = 2
+        object ComboBox2: TComboBox
+          Align = Top
+          Margins.Top = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 322.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+        end
+      end
+      object Label5: TLabel
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 50.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 176.000000000000000000
+        Size.Width = 322.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Name'
+        TabOrder = 1
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 4
+          Position.Y = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Size.Width = 322.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 114.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem3'
+      ExplicitSize.cx = 114.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+  end
+end

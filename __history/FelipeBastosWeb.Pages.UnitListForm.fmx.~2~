@@ -1,0 +1,4 @@
+inherited UnitListForm: TUnitListForm
+  Caption = 'Unit List'
+  DesignerMasterStyle = 3
+end

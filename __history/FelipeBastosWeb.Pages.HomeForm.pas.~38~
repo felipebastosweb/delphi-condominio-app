@@ -1,0 +1,57 @@
+unit FelipeBastosWeb.Pages.HomeForm;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Menus, FMX.Controls.Presentation,
+  FMX.Header, FMX.ListBox, FMX.Layouts, FelipeBastosWeb.Pages.RestrictForm,
+  FMX.ListView.Types, FMX.ListView.Appearances, FMX.ListView.Adapters.Base,
+  FMX.ListView,
+  FelipeBastosWeb.Pages.CondominiumListForm, FelipeBastosWeb.Pages.UnitListForm,
+  FMX.TabControl;
+
+type
+  THomeForm = class(TRestrictForm)
+    Header1: THeader;
+    HeaderItem1: THeaderItem;
+    HeaderItem2: THeaderItem;
+    TabControl1: TTabControl;
+    TabItem1: TTabItem;
+    TabItem2: TTabItem;
+    procedure HeaderItem4Click(Sender: TObject);
+    procedure ListBoxItem2Click(Sender: TObject);
+    procedure ListBoxItem1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  HomeForm: THomeForm;
+
+implementation
+
+{$R *.fmx}
+
+procedure THomeForm.HeaderItem4Click(Sender: TObject);
+begin
+  inherited;
+  ListBox1.Visible := not ListBox1.Visible;
+end;
+
+procedure THomeForm.ListBoxItem1Click(Sender: TObject);
+begin
+  inherited;
+  CondominiumListForm.Show;
+end;
+
+procedure THomeForm.ListBoxItem2Click(Sender: TObject);
+begin
+  inherited;
+  UnitListForm.Show;
+end;
+
+end.

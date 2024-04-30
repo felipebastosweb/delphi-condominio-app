@@ -1,0 +1,25 @@
+inherited ScheduleMeetingForm: TScheduleMeetingForm
+  Caption = 'Schedule Meeting'
+  ClientHeight = 600
+  ClientWidth = 300
+  Fill.Kind = Solid
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 300.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label2: TLabel
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Size.Width = 196.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Meeting Schedule'
+      TabOrder = 5
+    end
+  end
+end

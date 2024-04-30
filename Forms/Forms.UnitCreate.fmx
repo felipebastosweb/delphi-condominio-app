@@ -1,0 +1,169 @@
+object UnitCreateForm: TUnitCreateForm
+  Left = 0
+  Top = 0
+  Caption = 'Unit Create'
+  ClientHeight = 600
+  ClientWidth = 300
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 300.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Button1: TButton
+      Align = Left
+      Position.Y = 1.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+      TabOrder = 2
+    end
+    object Label9: TLabel
+      Align = Left
+      Position.X = 48.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Unit Create'
+      TabOrder = 1
+    end
+  end
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 300.000000000000000000
+    Size.Height = 550.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 300.000000000000000000
+    Viewport.Height = 550.000000000000000000
+    object Layout2: TLayout
+      Align = Top
+      Margins.Top = 2.500000000000000000
+      Margins.Bottom = 2.500000000000000000
+      Position.Y = 142.500000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label5: TLabel
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 280.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Name'
+        TabOrder = 1
+        object Edit1: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 4
+          Position.Y = 20.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Size.Width = 280.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Margins.Top = 2.500000000000000000
+      Margins.Bottom = 2.500000000000000000
+      Position.Y = 72.500000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Label4: TLabel
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 280.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Unit Type'
+        TabOrder = 2
+        object ComboBox2: TComboBox
+          Align = Top
+          Margins.Top = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 280.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+        end
+      end
+    end
+    object Layout4: TLayout
+      Align = Top
+      Margins.Top = 2.500000000000000000
+      Margins.Bottom = 2.500000000000000000
+      Position.Y = 2.500000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object Label3: TLabel
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Size.Width = 280.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Condominium'
+        TabOrder = 2
+        object ComboBox1: TComboBox
+          Align = Top
+          Margins.Top = 20.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 280.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+        end
+      end
+    end
+    object Layout5: TLayout
+      Align = Top
+      Margins.Top = 10.000000000000000000
+      Position.Y = 220.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 53.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object RoundRect1: TRoundRect
+        Align = Top
+        Fill.Color = claDarkgreen
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Size.Width = 260.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Label1: TLabel
+          Align = Center
+          StyledSettings = [Family, Size, Style]
+          HitTest = True
+          Size.Width = 186.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Confirm'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,34 @@
+unit FelipeBastosWeb.Pages.Maintenance.RequestForm;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FelipeBastosWeb.Pages.RestrictForm, FMX.Controls.Presentation, FMX.Header,
+  FMX.Calendar, FMX.Menus, FMX.Layouts, FMX.ListBox, FMX.Edit;
+
+type
+  TMaintenanceRequestForm = class(TRestrictForm)
+    Calendar1: TCalendar;
+    Layout1: TLayout;
+    Layout2: TLayout;
+    Label1: TLabel;
+    ComboBox1: TComboBox;
+    Layout3: TLayout;
+    Label2: TLabel;
+    Edit1: TEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  MaintenanceRequestForm: TMaintenanceRequestForm;
+
+implementation
+
+{$R *.fmx}
+
+end.

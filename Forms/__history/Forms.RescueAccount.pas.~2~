@@ -1,0 +1,31 @@
+unit Forms.RescueAccount;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Edit, FMX.Layouts, FMX.Controls.Presentation, FMX.StdCtrls;
+
+type
+  TRescueAccountForm = class(TForm)
+    Label1: TLabel;
+    Layout1: TLayout;
+    Label2: TLabel;
+    Edit1: TEdit;
+    RoundRect1: TRoundRect;
+    Label4: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  RescueAccountForm: TRescueAccountForm;
+
+implementation
+
+{$R *.fmx}
+
+end.
