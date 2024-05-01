@@ -1,4 +1,0 @@
-inherited GuestAccessNewForm: TGuestAccessNewForm
-  Caption = 'Guest Access'
-  DesignerMasterStyle = 3
-end
