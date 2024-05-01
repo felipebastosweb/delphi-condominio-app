@@ -59,8 +59,16 @@
 
 # Delphi history and backups
 __history/
+*/__history/
 __recovery/
+*/__recovery/
+Android/
+Win64/
+Win32/
 *.~*
+
+# Database
+*.sqlite
 
 # Castalia statistics file (since XE7 Castalia is distributed with Delphi)
 *.stat

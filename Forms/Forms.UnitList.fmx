@@ -2,8 +2,8 @@ object UnitListForm: TUnitListForm
   Left = 0
   Top = 0
   Caption = 'Unit List'
-  ClientHeight = 600
-  ClientWidth = 300
+  ClientHeight = 800
+  ClientWidth = 360
   Fill.Kind = Solid
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -11,7 +11,7 @@ object UnitListForm: TUnitListForm
   DesignerMasterStyle = 3
   object Layout1: TLayout
     Align = Top
-    Size.Width = 300.000000000000000000
+    Size.Width = 360.000000000000000000
     Size.Height = 50.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
@@ -35,7 +35,7 @@ object UnitListForm: TUnitListForm
     end
     object Button2: TButton
       Align = Right
-      Position.X = 252.000000000000000000
+      Position.X = 312.000000000000000000
       Position.Y = 1.000000000000000000
       Size.Width = 48.000000000000000000
       Size.Height = 48.000000000000000000
@@ -47,7 +47,7 @@ object UnitListForm: TUnitListForm
   object Layout2: TLayout
     Align = Top
     Position.Y = 50.000000000000000000
-    Size.Width = 300.000000000000000000
+    Size.Width = 360.000000000000000000
     Size.Height = 127.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 4
@@ -56,7 +56,7 @@ object UnitListForm: TUnitListForm
       Margins.Left = 10.000000000000000000
       Margins.Right = 10.000000000000000000
       Position.X = 10.000000000000000000
-      Size.Width = 280.000000000000000000
+      Size.Width = 340.000000000000000000
       Size.Height = 23.000000000000000000
       Size.PlatformDefault = False
       Text = 'Label2'
@@ -70,7 +70,7 @@ object UnitListForm: TUnitListForm
       Position.Y = 23.000000000000000000
       Margins.Left = 10.000000000000000000
       Margins.Right = 10.000000000000000000
-      Size.Width = 280.000000000000000000
+      Size.Width = 340.000000000000000000
       Size.Height = 32.000000000000000000
       Size.PlatformDefault = False
     end
@@ -82,7 +82,7 @@ object UnitListForm: TUnitListForm
       Margins.Right = 50.000000000000000000
       Position.X = 50.000000000000000000
       Position.Y = 75.000000000000000000
-      Size.Width = 200.000000000000000000
+      Size.Width = 260.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       Stroke.Kind = None
@@ -102,15 +102,15 @@ object UnitListForm: TUnitListForm
   end
   object ListBox1: TListBox
     Align = Client
-    Size.Width = 300.000000000000000000
-    Size.Height = 423.000000000000000000
+    Size.Width = 360.000000000000000000
+    Size.Height = 623.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 3
     DisableFocusEffect = True
     DefaultItemStyles.ItemStyle = ''
     DefaultItemStyles.GroupHeaderStyle = ''
     DefaultItemStyles.GroupFooterStyle = ''
-    Viewport.Width = 300.000000000000000000
-    Viewport.Height = 423.000000000000000000
+    Viewport.Width = 360.000000000000000000
+    Viewport.Height = 623.000000000000000000
   end
 end
